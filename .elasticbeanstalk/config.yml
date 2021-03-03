@@ -1,13 +1,13 @@
 branch-defaults:
   master:
-    environment: udagram-tushar-image-filter-dev-dev
+    environment: udagram-image-filter-dev-dev
     group_suffix: null
 deploy:
   artifact: ./www/Archive.zip
 global:
   application_name: udagram-image-filter-dev
   branch: null
-  default_ec2_keyname: null
+  default_ec2_keyname: firstpair
   default_platform: Node.js 12 running on 64bit Amazon Linux 2
   default_region: ap-south-1
   include_git_submodules: true
